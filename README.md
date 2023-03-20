@@ -17,11 +17,15 @@ To accomplish this, Tiberius called N gladiators to Rome. Then, in order to orga
 
 Explanation: We can obtain the fame coefficient `9` in the following way:
 
-Initially, the fame coefficient is equal to `0`.
-We choose the first battle to be between gladiator `4` and gladiator `5`.\The level of enthusiasm increases by `7-1=6`, becoming `6`, and gladiator `5` leaves the sequence.\Thus, we are left with gladiators: `1, 2, 3, 4`.
-The second battle will be between gladiator `1` and gladiator `2`.\The level of enthusiasm increases by `2-1=1`, becoming `7`, and gladiator `2` leaves the sequence.\Thus, we are left with gladiators: `1, 3, 4`.
-The third battle will be between gladiator `1` and gladiator `3`. The level of enthusiasm increases by `3-1=2`, becoming `9`, and gladiator `3` leaves the sequence.\Thus, we are left with gladiators: `1, 4`.
-The last battle will be between gladiator `1` and gladiator `4`.\The level of enthusiasm increases by `1-1=0`, becoming `9`, and because the gladiators have the same level of fame and gladiator `1` is further to the left, gladiator `4` leaves the sequence.\Thus, we are left with gladiator: **`1`**.
+Initially, the fame coefficient is equal to `0`.\
+We choose the first battle to be between gladiator `4` and gladiator `5`.\
+The level of enthusiasm increases by `7-1=6`, becoming `6`, and gladiator `5` leaves the sequence.\Thus, we are left with gladiators: `1, 2, 3, 4`.\
+The second battle will be between gladiator `1` and gladiator `2`.\
+The level of enthusiasm increases by `2-1=1`, becoming `7`, and gladiator `2` leaves the sequence.\Thus, we are left with gladiators: `1, 3, 4`.\
+The third battle will be between gladiator `1` and gladiator `3`. The level of enthusiasm increases by `3-1=2`, becoming `9`, and gladiator `3` leaves the sequence.\
+Thus, we are left with gladiators: `1, 4`.\
+The last battle will be between gladiator `1` and gladiator `4`.\
+The level of enthusiasm increases by `1-1=0`, becoming `9`, and because the gladiators have the same level of fame and gladiator `1` is further to the left, gladiator `4` leaves the sequence.\Thus, we are left with gladiator: **`1`**.\
 The way of choosing the battles is not necessarily unique.
 ## Constraints
 
